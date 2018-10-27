@@ -24,7 +24,7 @@
         <tr>
           <th width="1%">Código</th>
           <th>Nome</th>
-          <th>CPF</th>
+          <th width="9%">CPF</th>
           <th>E-mail</th>
           <th>Telefone</th>
           <th>Financeira</th>
@@ -48,7 +48,7 @@
             <td style="text-align: center;"><?= strftime(' %d-%m-%Y', strtotime($cliente->data_cadastro)); ?></td>
             <td nowrap="">
             <a href="update.php?id=<?= $cliente->id; ?>"><button type="button" class="btn btn-info btn-xs" title="Edite Clientes">Editar</button></a>
-            <a onclick="return confirm('Tem certeza que deseja Excluir?')" href="delete.php?id=<?= $cliente->id; ?>"<button type="button" class="btn btn-danger btn-xs" title="Exclua Clientes">Excluir</button></a>
+            <a onclick="return confirm('Tem certeza que deseja Excluir?')" href="delete.php?id=<?= $cliente->id; ?>" ><button type="button" class="btn btn-danger btn-xs" title="Exclua Clientes">Excluir</button></a>
             </td>
           </tr>
         <?php endforeach; ?>

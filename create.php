@@ -41,15 +41,16 @@ $message = '';
             <h2>Novo Cliente</h2>
         </div>
         <br>
-        <?php if (!empty($message)): ?>
-                <div class="card-body form-horizontal alert alert-success col-md-4 control-label form-group" style="margin-left:34%">
-                    <div class="col-md-6">
-                        <label class="col-md-12 control-label" for="nome"><?= $message; ?></label>
-                    </div>
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="nome"></label>
+            <?php if (!empty($message)) : ?>
+                <div class=" alert alert-success col-md-4 ">                            
+                        <span style="margin-left: 115px;"><?= $message; ?></span>                       
                 </div>
             <?php endif; ?>
+        </div>
         <div class="card-body">
-            <form class="form-horizontal mt-5" method="post">
+            <form class="form-horizontal mt-2" method="post">
                 <div class="form-group">
                     <label class="col-md-4 control-label" for="nome">Nome</label>
                     <div class="col-md-4">
