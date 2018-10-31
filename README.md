@@ -1,6 +1,6 @@
 # CRUD-DAO-PHP
 
-Create simple crud for test for enterprise Revict, project passed whith thwo days for delivery,
+Create simple crud in pure php for test for enterprise Revict, project passed whith thwo days for delivery,
 It's Simple but it's works! Tank's.
 
 
