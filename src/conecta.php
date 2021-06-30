@@ -2,7 +2,7 @@
 
 $host = 'mysql:host=localhost;dbname=revict';
 $username = 'laravel';
-$password = '#Fibra13';
+$password = 'root';
 $options = [];
 
 try{
